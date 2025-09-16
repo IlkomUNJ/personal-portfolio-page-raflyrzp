@@ -18,9 +18,8 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1000;
+  z-index: 9999;
   background: #222;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 nav .container {
@@ -82,7 +81,6 @@ header .profile-pic {
   border: 4px solid #fff;
   margin-bottom: 1rem;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 header h2 {
