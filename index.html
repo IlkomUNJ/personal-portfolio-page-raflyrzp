@@ -3,69 +3,154 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rafly's Portfolio</title>
+    <title>Portfolio - Rafly Rabbany Zalfa Pateda</title>
+    <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
+    <nav>
+      <div class="container">
+        <h1 class="logo">RaflyRZP</h1>
+        <ul>
+          <li><a href="#biography">Biography</a></li>
+          <li><a href="#awards">Awards</a></li>
+          <li><a href="#certificates">Certificates</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#reflection">Self Reflection</a></li>
+          <li><a href="#goals">Future Goals</a></li>
+        </ul>
+      </div>
+    </nav>
+
     <header>
-      <h1>Rafly Rabbany Zalfa Pateda</h1>
-      <p>Student | Web Developer | Tech Enthusiast</p>
+      <img src="img/rafly.png" alt="Profile Picture" class="profile-pic" />
+      <h2>Rafly Rabbany Zalfa Pateda</h2>
+      <p>
+        Building APIs & Scalable Web Apps with Laravel, Django & Next.js |
+        Back-End Developer | Computer Science Student at UNJ
+      </p>
+      <p class="motto">"Innovating, Developing, Caffeinating"</p>
     </header>
 
     <main>
-      <!-- Illustration -->
-      <section>
-        <!-- <h2>Illustration</h2> -->
-        <img
-          src="img/toothless.jpg"
-          alt="Rafly"
-          style="
-            width: 150px;
-            height: 150px;
-            object-fit: cover;
-            border-radius: 50%;
-          "
-        />
-      </section>
-
-      <!-- Short Biography -->
-      <section>
+      <section id="biography">
         <h2>Short Biography</h2>
         <p>
-          Halo! Nama saya Rafly Rabbany Zalfa Pateda, seorang mahasiswa Ilmu
-          Komputer dengan minat yang kuat pada AI dan pengembangan web. Saya
-          suka mengulik hal-hal yang berbau teknologi.
+          I'm Rafly Rabbany Zalfa Pateda, a Backend Web Developer with
+          experience working on projects like LMS, Point of Sale systems,
+          freelance work, and internships. Currently, I am studying Computer
+          Science at Universitas Negeri Jakarta and enjoy working with Laravel,
+          Django, and Next.js. My aspiration is to create a team that focuses on
+          delivering impactful solutions in healthcare technology.
         </p>
       </section>
 
-      <!-- Awards -->
-      <section>
-        <h2>Awards</h2>
+      <section id="awards">
+        <h2>List of Awards</h2>
         <ul>
-          <li>Best Graduate - SMKN 64 Jakarta</li>
-          <li>Project Leader LMS "Inspira"</li>
-          <li>General Champion in School Competition</li>
+          <li>Overall Champion of SMKN 64 Jakarta</li>
+          <li>Best Graduate of SMKN 64 Jakarta</li>
+          <li>
+            Awarded as Project Leader in LMS Development at SMKN 64 Jakarta
+          </li>
         </ul>
       </section>
 
-      <!-- Education History -->
-      <section>
+      <section id="certificates">
+        <h2>Certificates</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Certificate Name</th>
+              <th>Issuer</th>
+              <th>Credential ID</th>
+              <th>Issued</th>
+              <th>Expires</th>
+              <th>Link</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>CS101: Introduction to Computer Science I</td>
+              <td>Saylor Academy</td>
+              <td>4061940901RR</td>
+              <td>Aug 2024</td>
+              <td>-</td>
+              <td>
+                <a href="Introduction to Computer Science I.pdf" target="_blank"
+                  >View</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>CS102: Introduction to Computer Science II</td>
+              <td>Saylor Academy</td>
+              <td>2280242207RR</td>
+              <td>Aug 2024</td>
+              <td>-</td>
+              <td>
+                <a
+                  href="Introduction to Computer Science II.pdf"
+                  target="_blank"
+                  >View</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>CS105: Introduction to Python</td>
+              <td>Saylor Academy</td>
+              <td>6416313696RR</td>
+              <td>Aug 2024</td>
+              <td>-</td>
+              <td>
+                <a href="Introduction to Python.pdf" target="_blank">View</a>
+              </td>
+            </tr>
+            <tr>
+              <td>Novice Programmer Occupational Certification Scheme</td>
+              <td>Badan Nasional Sertifikasi Profesi (BNSP)</td>
+              <td>-</td>
+              <td>Aug 2024</td>
+              <td>Aug 2027</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>Intro to Data Analytics</td>
+              <td>RevoU</td>
+              <td>-</td>
+              <td>Sep 2023</td>
+              <td>-</td>
+              <td><a href="Data Analytics.pdf" target="_blank">View</a></td>
+            </tr>
+            <tr>
+              <td>Google IT Support</td>
+              <td>Google</td>
+              <td>FWWMB2CJFMWZ</td>
+              <td>Nov 2022</td>
+              <td>-</td>
+              <td><a href="#" target="_blank">View</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="education">
         <h2>Education History</h2>
-        <table border="1" cellpadding="5" cellspacing="0">
+        <table>
           <thead>
             <tr>
               <th>Year</th>
               <th>Institution</th>
-              <th>Program</th>
+              <th>Field of Study</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td>2024 - Present</td>
               <td>Universitas Negeri Jakarta</td>
-              <td>Bachelor in Computer Science</td>
+              <td>Computer Science</td>
             </tr>
             <tr>
-              <td>2021 - 2024</td>
+              <td>2018 - 2021</td>
               <td>SMKN 64 Jakarta</td>
               <td>Software Engineering</td>
             </tr>
@@ -73,46 +158,83 @@
         </table>
       </section>
 
-      <!-- Self Reflection -->
-      <section>
+      <section id="reflection">
         <h2>Self Reflection</h2>
         <p>
-          Saya sadar selama perjalanan ini, saya banyak berkembang, baik dari
-          sisi akademik maupun pengalaman di luar kelas. Ikut proyek,
-          organisasi, sampai kerja bareng tim bikin saya lebih paham kalau
-          belajar itu nggak cuma soal teori, tapi juga soal komunikasi, kerja
-          sama, dan cara nyelesain masalah di dunia nyata.
+          Recently, I have been learning and achieving new skills, particularly
+          in public speaking and Django programming. I realize that my strengths
+          in emotional resilience and positive thinking have helped me face
+          different challenges. At the same time, I am still working on
+          improving my tendency to be overly perfectionist and my time
+          management skills.
         </p>
         <p>
-          Walau begitu, saya juga sadar masih ada yang perlu saya perbaiki,
-          terutama soal manajemen waktu dan gimana saya bisa lebih jelas
-          nyampein ide ke orang lain. Tapi saya seneng karena setiap pengalaman
-          yang saya dapet jadi bekal buat langkah ke depan, khususnya buat terus
-          ngasah skill di bidang teknologi dan bikin karya yang bermanfaat.
+          Through my experiences in event committees, freelance projects, and
+          mini hackathons, I have gained valuable lessons about teamwork,
+          responsibility, and adaptability. I am grateful for the opportunities
+          to keep growing, the supportive environment around me, and the
+          experiences that broaden my perspective. Moving forward, I aim to
+          become a better and more consistent person in achieving my goals.
         </p>
       </section>
 
-      <!-- Future Career Goals -->
-      <section>
-        <h2>Future Career Goals</h2>
-        <p>
-          Ke depan, saya pengen ngembangin karier di bidang web development dan
-          AI, karena menurutku dua bidang ini paling relevan sama kebutuhan
-          industri sekarang. Fokusku lebih ke arah back-end development dan
-          pemanfaatan AI untuk bikin sistem yang lebih efisien dan bermanfaat.
-        </p>
-        <p>
-          saya juga pengen ningkatin kemampuan komunikasi dan kerja tim, biar
-          bisa kolaborasi lebih efektif di proyek-proyek besar. Harapannya, saya
-          bisa mulai dari pengalaman kerja di industri teknologi, lalu
-          pelan-pelan membangun portofolio yang kuat sebagai bekal karier jangka
-          panjang.
-        </p>
+      <section id="goals">
+        <h2>Future Goals</h2>
+        <div class="goals-container">
+          <article>
+            <h3>Short-Term Goals</h3>
+            <ul>
+              <li>
+                Mastering persuasive speaking to enhance communication and
+                presentation skills
+              </li>
+              <li>
+                Winning a hackathon to sharpen problem-solving and teamwork
+                abilities
+              </li>
+              <li>
+                Building a freelance team to collaborate on real-world projects
+                and client solutions
+              </li>
+            </ul>
+          </article>
+          <article>
+            <h3>Long-Term Goals</h3>
+            <ul>
+              <li>
+                Establishing a technology-driven team in the healthcare sector
+              </li>
+              <li>
+                Developing impactful projects that contribute to healthcare
+                innovation
+              </li>
+              <li>
+                Becoming a professional developer with strong expertise and
+                industry recognition
+              </li>
+            </ul>
+          </article>
+        </div>
       </section>
     </main>
 
     <footer>
-      <p>Contact: raflyrabbany0804@gmail.com</p>
+      <p>&copy; 2025 Rafly Rabbany Zalfa Pateda</p>
+      <ul class="social-links">
+        <li>
+          <a href="https://github.com/raflyrzp" target="_blank">GitHub</a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/rafly-rabbany-zalfa-pateda/"
+            target="_blank"
+            >LinkedIn</a
+          >
+        </li>
+        <li>
+          <a href="https://instagram.com/raflyrzp" target="_blank">Instagram</a>
+        </li>
+      </ul>
     </footer>
   </body>
 </html>
